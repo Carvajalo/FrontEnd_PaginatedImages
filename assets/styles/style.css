@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'iconos';
+    src:  url('../fonts/iconos/icomoon.eot?5emks1');
+    src:  url('../fonts/iconos/icomoon.eot?5emks1#iefix') format('embedded-opentype'),
+      url('../fonts/iconos/icomoon.ttf?5emks1') format('truetype'),
+      url('../fonts/iconos/icomoon.woff?5emks1') format('woff'),
+      url('../fonts/iconos/icomoon.svg?5emks1#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: inline;
+  }
+  
+
+  
+.icon_arrow_right:before {
+  font-family: 'iconos';
+  content: "\e900";
+  width: 20px;
+  height: 20px;
+}
+.icon_arrow_left:before {
+  font-family: 'iconos';
+  content: "\e901";
+}
